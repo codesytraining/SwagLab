@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="1" ignored="0" total="5" passed="3" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-21T20:40:36 IST" name="SwagLabs" finished-at="2023-03-21T20:45:01 IST" duration-ms="265537">
+    <groups>
+    </groups>
+    <test started-at="2023-03-21T20:40:36 IST" name="PurchaseProducts" finished-at="2023-03-21T20:41:29 IST" duration-ms="52987">
+      <class name="Codesy.in.SwagLabs.ProductPurchaseTestCase">
+        <test-method signature="loginTestCase(java.util.HashMap)[pri:0, instance:Codesy.in.SwagLabs.ProductPurchaseTestCase@4ff8d125]" started-at="2023-03-21T20:40:36 IST" name="loginTestCase" data-provider="getDataForPurchaseProducts" finished-at="2023-03-21T20:41:01 IST" duration-ms="24483" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{ThanksMsg=THANK YOU FOR YOUR ORDER!, UserName=standard_user, FirstName=Rohit, PostalCode=000000, LastName=Patil, ExpectedProdCnt=3, Password=secret_sauce}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestCase -->
+        <test-method signature="purchaseProducts(java.util.HashMap)[pri:0, instance:Codesy.in.SwagLabs.ProductPurchaseTestCase@4ff8d125]" started-at="2023-03-21T20:41:01 IST" name="purchaseProducts" data-provider="getDataForPurchaseProducts" finished-at="2023-03-21T20:41:29 IST" duration-ms="27945" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{ThanksMsg=THANK YOU FOR YOUR ORDER!, UserName=standard_user, FirstName=Rohit, PostalCode=000000, LastName=Patil, ExpectedProdCnt=3, Password=secret_sauce}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseProducts -->
+      </class> <!-- Codesy.in.SwagLabs.ProductPurchaseTestCase -->
+    </test> <!-- PurchaseProducts -->
+    <test started-at="2023-03-21T20:40:36 IST" name="MenuOptions" finished-at="2023-03-21T20:45:01 IST" duration-ms="265537">
+      <class name="testCaseClasses.TestMenuOptions">
+        <test-method retried="true" signature="testAboutMenu(java.util.HashMap)[pri:0, instance:testCaseClasses.TestMenuOptions@5bf0fe62]" started-at="2023-03-21T20:40:36 IST" name="testAboutMenu" data-provider="getDataForMenuTestCases" finished-at="2023-03-21T20:41:48 IST" duration-ms="72039" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{ExpectedTitle=Sauce Labs: Cross Browser Testing, Selenium Testing, UserName=standard_user, Password=secret_sauce}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Actual Title and Expected Title are NOT Same!! expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Actual Title and Expected Title are NOT Same!! expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at testCaseClasses.TestMenuOptions.testAboutMenu(TestMenuOptions.java:39)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAboutMenu -->
+        <test-method signature="testAboutMenu(java.util.HashMap)[pri:0, instance:testCaseClasses.TestMenuOptions@5bf0fe62]" started-at="2023-03-21T20:41:48 IST" name="testAboutMenu" data-provider="getDataForMenuTestCases" finished-at="2023-03-21T20:44:15 IST" duration-ms="146916" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{ExpectedTitle=Sauce Labs: Cross Browser Testing, Selenium Testing, UserName=standard_user, Password=secret_sauce}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Actual Title and Expected Title are NOT Same!! expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Actual Title and Expected Title are NOT Same!! expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at testCaseClasses.TestMenuOptions.testAboutMenu(TestMenuOptions.java:39)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAboutMenu -->
+        <test-method signature="testLogOut(java.util.HashMap)[pri:0, instance:testCaseClasses.TestMenuOptions@5bf0fe62]" started-at="2023-03-21T20:44:27 IST" name="testLogOut" data-provider="getDataForMenuTestCases" finished-at="2023-03-21T20:45:01 IST" duration-ms="34720" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{ExpectedTitle=Sauce Labs: Cross Browser Testing, Selenium Testing, UserName=standard_user, Password=secret_sauce}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogOut -->
+      </class> <!-- testCaseClasses.TestMenuOptions -->
+    </test> <!-- MenuOptions -->
+  </suite> <!-- SwagLabs -->
+</testng-results>

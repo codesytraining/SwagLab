@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel = "tests" name="SwagLabs">
+   
+   <listeners>
+   		<listener class-name="Codesy.in.SwagLabs.SwagListeners"/>
+   </listeners>
+   
+   
+  <test name="PurchaseProducts">
+    <classes>
+      <class name="Codesy.in.SwagLabs.ProductPurchaseTestCase"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="MenuOptions">
+    <classes>
+      <class name="testCaseClasses.TestMenuOptions"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
