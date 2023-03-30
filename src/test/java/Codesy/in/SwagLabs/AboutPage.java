@@ -14,6 +14,7 @@ public class AboutPage {
 	}
 	
 	
+	//This is comment added in CodeBae_1
 	
 	//Action Methods
 	public boolean validateTitle(String expectedTitle) {
